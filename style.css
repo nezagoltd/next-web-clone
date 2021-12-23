@@ -1,7 +1,10 @@
 .fa
 {
     text-decoration: none;
-    color: rgb(243, 242, 242);
+    color: rgb(39, 37, 37);
     fill: black;
     ---fa-primary-color: black;
+}
+.footer{
+    display:inline-flex;
 }
