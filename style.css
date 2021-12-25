@@ -8,3 +8,12 @@
 .footer{
     display:inline-flex;
 }
+.scroll-playlist{
+    overflow: hidden;
+    display: grid;
+    grid-template: 2fr 1fr ;
+}
+.video-area{
+    display: flex;
+}
+
