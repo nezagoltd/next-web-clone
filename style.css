@@ -6,14 +6,37 @@
     ---fa-primary-color: black;
 }
 .footer{
-    display:inline-flex;
-}
+    display:inline-flex;}
+    
+    @media only screen and (min-width:1859px) {
+    
+
 .scroll-playlist{
-    overflow: hidden;
+    height: 700px;
+    width: 400px;
+    /* overflow:scroll; */
     display: grid;
-    grid-template: 2fr 1fr ;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    /* border: 2px solid black; */
+    opacity: 0.9;
+    
+
+
+  
+   
+    
 }
 .video-area{
     display: flex;
-}
+    height: 700px;
+    flex-direction:row;
+    /* border: 2px solid red; */
+    width: 75%;
+    justify-content: space-evenly;
+    margin: 15%;
+    
+}}
 
+
+ 
