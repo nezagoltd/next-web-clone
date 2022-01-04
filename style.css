@@ -38,10 +38,12 @@
 }
 .left-icon2{
     border: 3px solid rgb(84, 161, 32);
+    height: 20px;
     
 }
 .left-icon2-true{
-    height: 10px;
+    width: 100px;
+    height: 20px;
 }
 
 .menu{
@@ -77,9 +79,6 @@ padding-top: 10px;
     fill: lawngreen;
 }
 
-
-
-
 .main-part{
     /* position: relative; */
     /* z-index: -1; */
@@ -87,17 +86,18 @@ padding-top: 10px;
 .tnw-header{
     background-color: rgb(130, 183, 204);
     width: 100%;
-    height: 100px;
+    height: 150px;
     display: grid;
+    grid-template-rows: 1fr 1fr;
     /* position: relative; */
     /* z-index: 0; */
-    align-items: center;
+   
 }
 .tnw-svg{
     height: 30px;
     width: 35%;
     border: 2px solid black;
-    margin-top: 90px;
+    margin-top: 50px;
     margin-left: 35%;
     font-size: 70px;
 }
@@ -115,83 +115,130 @@ padding-top: 10px;
     padding: 7px;
     width: 100%;
     overflow: hidden;
-   /* position: relative; */
-    /* z-index: -2; */
 }
-/* .flexed-images-text{
-    border:1x solid rgb(136, 19, 19);
-    display: flex;
-    flex-direction: row;
-    overflow-x: scroll;
-    width:100%;
-    height: 200px;
-  
-} */
 
 .five-images-text{
-    height: 500px;
+    height: 400px;
     display: grid;
     grid-template-columns: 1fr ;
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 250px 150px;
 }
 .flexed-images-text{
     border: 3px solid yellow;
     display: grid;
     grid-template-columns:250px 250px 250px 250px ;
-    column-gap: 10px;grid-template-rows: 250px 250px;
+    column-gap: 10px;
+    grid-template-rows: 250px 250px;
     row-gap:10px;
     overflow-x: scroll;
+    overflow-y: hidden;
     scrollbar-width: 0px;
     height: 250px;
     width: 320px;
     
 }
 
+.flexed-image-1{
+    border:1px solid black;
+    background-image: linear-gradient( to top, #000000, white);
+    background-image:linear-gradient(to top,rgba(0, 0, 0,0.9), rgba(255, 255, 255,0.2)), url(https://img-cdn.tnwcdn.com/image?fit=600%2C300&url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Faliens_2021-12-29-090839_eefs.jpeg&signature=cac4fc779234c5044bb86891c72cfd08);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient(to top, black, white); */
+    opacity: 1;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: end;
+    grid-row-gap: 1px; */
+    padding-top: 55%;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+
+}
+.flexed-image-2{
+    border: 1px solid black;
+    padding-top: 45%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image:linear-gradient(to top,rgba(0, 0, 0,0.9), rgba(255, 255, 255,0.2)), url(https://img-cdn.tnwcdn.com/image?fit=600%2C300&url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Fkinner.jpeg&signature=82579a9b800a4a8694c1e7f3285d1fcc);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+.flexed-image-3{
+    border: 1px solid black;
+    padding-top: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background:linear-gradient(to top,rgba(0, 0, 0,0.9), rgba(255, 255, 255,0.2)),url(https://img-cdn.tnwcdn.com/image?fit=600%2C300&url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Fchip.jpeg&signature=2576ef6ed902cd286a7a6a247dc1ed44);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+   
+
+.flexed-image-4{
+    border: 1px solid black;
+    padding-top: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image:linear-gradient(to top,rgba(0, 0, 0,0.9), rgba(255, 255, 255,0.2)), url(https://img-cdn.tnwcdn.com/image?fit=600%2C300&url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Fdelusional.jpeg&signature=da0cb183650428b86d26504560951067);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+
+.flexed-image-header{
+    color: rgb(255, 255, 255);
+    font: 0.7em sans-serif;
+    font-weight: bold;
+    border: 2px solid red;
+    
+}
+.flexed-image-content{
+    border: 2px solid rgb(49, 19, 184);
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-family: sans-serif;
+
+}
+
+
 .single-image-text{
+    border: 1px solid black;
+    /* width:290px;
+    height: 100px; */
     display: grid;
-    grid-template-columns: 320px 250px 250px 250px;
+    grid-template-columns: 250px 250px 250px 250px ;
+    padding-top: 4%;
+    padding-right: 10px;
+    padding-left: 20px;
+    color: #ffffff;
+    font: 1.em sans-serif;
+    font-weight: bold;
+    background-image: url(https://img-cdn.tnwcdn.com/image?fit=285%2C150&url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fcompanies%2Fhome-header_advert-tnw2021-03.jpg&signature=5666d931fff7b6ec7496f08886c9fde0);
+    background-size:320px 150px;
+    overflow: hidden;
+    background-repeat: no-repeat;
       
 }
+
 .single-image-footer{
     border:1px solid rgb(255, 255, 255);
     border-radius: 50px;
     width: 120px;
     height: 30px;
-    margin-left: 28%;
+    margin-left: 24%;
     padding-left: 13px;
-    padding-top: 15px;
+    padding-top: 5px;
     white-space: nowrap;
+    font-size: 1rem;
+    font-weight: bold;
 }
-
-.flexed-image-1{
-    border:1px solid black;
-    background-image: linear-gradient( to top, black, white);
-    background-image: url(https://img-cdn.tnwcdn.com/image?fit=600%2C300&url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Faliens_2021-12-29-090839_eefs.jpeg&signature=cac4fc779234c5044bb86891c72cfd08);
-    /* width: 375x;
-    height:240px; */
-    
-
-}
-.flexed-image-2{
-    border: 1px solid black;
-}
-    /* width: 375x;
-    height:240px;
-} */
-.flexed-image-3{
-    border: 1px solid black;
-    /* width: 375x;
-    height:240px; */
-}
-.flexed-image-4{
-    border: 1px solid black;
-    /* width: 375x;
-    height:240px; */
-}
-.single-image-text{
-    border: 1px solid black;
-    /* width: 375px;
-    height: 240px; */
+.tech-carrier{
+    margin-top: 10%;
 }
 
 

@@ -22,12 +22,7 @@
     overflow-x:hidden;
     /* border: 2px solid black; */
     opacity: 0.9;
-    
-
-
-  
-   
-    
+     
 }
 .video-area{
     display: flex;
