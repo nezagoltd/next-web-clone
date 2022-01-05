@@ -122,10 +122,10 @@ padding-top: 10px;
 }
 
 .five-images-text{
-    height: 400px;
+    height: 420px;
     display: grid;
     grid-template-columns: 1fr ;
-    grid-template-rows: 250px 150px;
+    grid-template-rows: 250px 170px;
 }
 .flexed-images-text{
     border: 3px solid yellow;
@@ -224,7 +224,7 @@ padding-top: 10px;
     font: 1.em sans-serif;
     font-weight: bold;
     background-image: url(https://img-cdn.tnwcdn.com/image?fit=285%2C150&url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fcompanies%2Fhome-header_advert-tnw2021-03.jpg&signature=5666d931fff7b6ec7496f08886c9fde0);
-    background-size:320px 150px;
+    background-size:320px 170px;
     overflow: hidden;
     background-repeat: no-repeat;
       
@@ -237,13 +237,13 @@ padding-top: 10px;
     height: 30px;
     margin-left: 20%;
     padding-left: 13px;
-    padding-top: 1px;
+    padding-top: 10px;
     white-space: nowrap;
     font-size: 1rem;
     font-weight: bold;
 }
 .tech-carrier{
-    margin-top: 10px;
+    margin-top: 40px;
     width: 320px;
     margin-left: -7px;
 }
@@ -255,7 +255,7 @@ padding-top: 10px;
     background-color:rgb(230, 233, 240);
     width: 300px;
     padding-top: 25px;
-    height:370px;
+    height:570px;
     padding-right: 20px;
     margin-left: -7px;
 }
@@ -273,7 +273,10 @@ padding-top: 10px;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #000;
-    font-size: 0.7rem;
+    font-size: 1.1rem;
+    font-weight:bolder;
+    display: inline;
+    
     
     
 }
@@ -282,15 +285,140 @@ ol{
 }
 li::before{
 
-    content:counter(li) ; color: rgb(194, 32, 113);  width: 1rem; 
-    margin-left: -1em; counter-increment: li; display:inline-block;font-size: 1.2rem; font-style:initial;
+    content:counter(li) ; color: rgb(194, 32, 113);  width: 1.2rem; 
+    margin-left: -1em; counter-increment: li; display:inline-block;font-size: 1.6rem; font-style:initial;
      
 }
 
 .latest{border: 2px solid red;
     width: 320px;
+    height: 1200px;
+    background-color: rgb(255, 255, 255);
+}
+.latest-header{
+    border: 1px solid yellow;
+    margin-top: 50px;
+    margin-left: 30%;
+    height: 40px;
+    font-size: 2rem;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.latest-1{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 50px;
+    width: 320px;
+    height: 500px;
+    border: 5px solid fuchsia;
+    margin-top: 30px;
+}
+.latest-img-1{
+   
+    border: 2px solid blue;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 30px;
+    height: 500px;
+    margin-top: 2px;
+    
+}
+.img-1{
+    height: 70px;
+    width: 80px;
+}
+.latest-text-1{
+    width: 170px;
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr 5fr 1fr 5fr 1fr 5fr;
+    padding-left: 10px;
+}
+.latest-1-header a{
+text-decoration: none;
+color: rgb(137, 230, 206);
+font-weight: bold;
+font-family:monospace;
+}
+.latest-1-text a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
+/* latest-2 */
+
+.latest-2{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 50px;
+    width: 320px;
+    height: 500px;
+    border: 5px solid fuchsia;
+    margin-top: 0px;
+}
+.latest-img-2{
+   
+    border: 2px solid blue;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 30px;
+    height: 500px;
+    margin-top: 2px;
+    
+}
+.img-2{
+    height: 70px;
+    width: 80px;
+}
+.latest-text-2{
+    width: 170px;
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr 5fr 1fr 5fr 1fr 5fr;
+    padding-left: 10px;
+    margin-top: -2px;
+    
+}
+.latest-2-header a{
+text-decoration: none;
+color: rgb(137, 230, 206);
+font-weight: bold;
+font-family:monospace;
+}
+.latest-2-text a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.all-news{
+    height: 30px;
+    width:220px;
+    display: flex;
+    border: 1px solid rgb(233, 10, 203);
+    background-color: rgb(233, 10, 203);
+    margin-top: 50px;
+    border-radius: 50px;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.all-icon{
+    height: 20px;
+    width: 20px;
+    margin-top: -3px;
+    margin-left: 120px;
+    opacity: 0.3;
+}
+.all{
+    white-space: nowrap;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 
