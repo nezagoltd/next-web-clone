@@ -575,3 +575,25 @@ width: 70%;
 .newsletter{
     font-weight: 900;
 }
+
+.explore-2-input{
+    height: 40px;
+}
+.explore-2-button{
+    height: 44px;
+    margin-left: -4px;
+    background-color: rgb(248, 32, 212);
+    border-color: rgb(248, 32, 212);
+    border-bottom: rgb(248,32,212);
+    border-right: rgb(248,32,212);
+    width: 90px;
+    color: rgb(225, 225, 225);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 950;
+
+    
+    
+}
+.facebook{
+    height: 30px;
+}
