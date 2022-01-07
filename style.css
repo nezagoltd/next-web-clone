@@ -2,7 +2,6 @@ html{
     width: 769px;
 }
 
-
 .nav-bar{
     background-color:rgb(230, 101, 101);
     width: 100%;
@@ -84,18 +83,15 @@ padding-top: 10px;
 }
 
 .main-part{
-    /* position: relative; */
-    /* z-index: -1; */
+  
 }
 .tnw-header{
     background-color: rgb(130, 183, 204);
     width: 320px;
-    height: 150px;
+    height:250px ;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    /* position: relative; */
-    /* z-index: 0; */
-   
+  
 }
 .tnw-svg{
     height: 30px;
@@ -149,17 +145,10 @@ padding-top: 10px;
     background-image:linear-gradient(to top,rgba(0, 0, 0,0.9), rgba(255, 255, 255,0.2)), url(https://img-cdn.tnwcdn.com/image?fit=600%2C300&url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Faliens_2021-12-29-090839_eefs.jpeg&signature=cac4fc779234c5044bb86891c72cfd08);
     background-position: center;
     background-repeat: no-repeat;
-    /* background-image: linear-gradient(to top, black, white); */
     opacity: 1;
-    /* display: grid;
-    grid-template-rows: 1fr 1fr;
-    align-items: end;
-    grid-row-gap: 1px; */
     padding-top: 55%;
     padding-left: 10px;
     padding-right: 10px;
-  
-
 }
 .flexed-image-2{
     border: 1px solid black;
@@ -292,7 +281,7 @@ li::before{
 
 .latest{border: 2px solid red;
     width: 320px;
-    height: 1200px;
+    height: 1330px;
     background-color: rgb(255, 255, 255);
 }
 .latest-header{
@@ -395,11 +384,12 @@ font-family:monospace;
 }
 .all-news{
     height: 30px;
-    width:220px;
+    width:190px;
     display: flex;
     border: 1px solid rgb(233, 10, 203);
     background-color: rgb(233, 10, 203);
     margin-top: 50px;
+    margin-left: 10px;
     border-radius: 50px;
     flex-direction: row;
     padding-top: 20px;
@@ -409,7 +399,7 @@ font-family:monospace;
     height: 20px;
     width: 20px;
     margin-top: -3px;
-    margin-left: 120px;
+    margin-left: 100px;
     opacity: 0.3;
 }
 .all{
@@ -420,6 +410,168 @@ font-family:monospace;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.explore{
+    background-color:rgb(230, 233, 240); 
+    width: 320px;
+}
+.explore-1{
+    display: grid;
+    height: 410px;
+    grid-template-rows: 40px 370px;
+}
+.explore-1-header{
+ 
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 950;
+    white-space: nowrap;
+    word-spacing: -4px;
+}
 
+.explore-1-contents{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px 230px 230px ;
+    overflow: scroll;
+    grid-column-gap: 10px;
+}
+.explore-img-1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    background-image: url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-plugged.jpg&signature=4423a77a45ff6281a089424a8dd0bc24);
+}
+.explore-img-2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    background-image: url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-neural.jpg&signature=7b20700b0f58af3860449664ae1a5e68);
+}
+.explore-img-3{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    background-image: url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-shift.jpg&signature=1d3ef28f5220f870b7e289810caa80a3);
+}
+.explore-img-4{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    background-image: url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-growth-quarters.jpg&signature=72ccfd9e92f942be8ace3526d0dc3aab);
+}
+.explore-img-5{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    background-image: url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-hardfork.jpg&signature=77d9941cfc302cb2e25c39ab3043fa7b);
+}
+.explore-img-6{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    background-image: url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-house-of-talent.jpg&signature=00b64ed0c1f08232e038c697e3f8f755);
+}
 
+.img1{
+    height: 30px;
+}
+.explore-img-1 a{
+color: white;
+text-decoration: none;
+font-size: 1.2rem;
+margin-left: 15px;
+width: 70%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.img2{
+    height: 30px;
+}
+.explore-img-2 a{
+color: white;
+text-decoration: none;
+font-size: 1.2rem;
+margin-left: 15px;
+width: 70%;
+}
+
+.img3{
+    height: 30px;
+}
+.explore-img-3 a{
+color: white;
+text-decoration: none;
+font-size: 1.2rem;
+margin-left: 15px;
+width: 70%;
+}
+.img4{
+    height: 30px;
+}
+.explore-img-4 a{
+color: white;
+text-decoration: none;
+font-size: 1.2rem;
+margin-left: 15px;
+width: 70%;
+
+}
+.img5{
+    height: 30px;
+}
+.explore-img-5 a{
+color: white;
+text-decoration: none;
+font-size: 1.2rem;
+margin-left: 15px;
+width: 70%;
+}
+.img6{
+    height: 30px;
+}
+.explore-img-6 a{
+color: white;
+text-decoration: none;
+font-size: 1.2rem;
+margin-left: 15px;
+width: 70%;
+}
+.explore-2{
+    background-image: url(https://next.tnwcdn.com/assets/next/img/spacesbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: center;
+    background-attachment: fixed;
+    height: 370px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 2fr;
+    padding-top: 50px;
+    row-gap: 1px;
+    place-items: center;
+
+}
+.explore-2-heading{
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: 950;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+}
+.explore-2-contents{
+    margin-left: 10%;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.explore-2-contents a{
+    text-decoration: none;
+    color: rgb(22, 170, 175);
+}
+.newsletter{
+    font-weight: 900;
+}
