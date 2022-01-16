@@ -656,7 +656,8 @@ input{
 }
 
 .scroll-playlist{
-    margin-top: auto;
+    margin-top: -20px;
+    /* justify-content:space-evenly; */
     padding-top: auto;
     height: 200px;
     width: 300px;
