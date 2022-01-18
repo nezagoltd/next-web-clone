@@ -1,0 +1,23 @@
+{
+  "name": "next-web-clone",
+  "version": "1.0.0",
+  "description": "This is my third challenge in Nezago software engineer training.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nezago/next-web-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nezago/next-web-clone/issues"
+  },
+  "homepage": "https://github.com/nezago/next-web-clone#readme",
+  "dependencies": {
+    "hint": "^6.1.9"
+  }
+}
